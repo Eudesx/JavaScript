@@ -14,7 +14,7 @@ itensComprados = "Lasanha Congelada"
 console.log("Item comprado: " + itensComprados)
 
 //if,else if, else
-let nivelDeFome = 4
+let nivelDeFome = 5
 
 if(nivelDeFome === 1){
 console.log("Voçê está com pouca fome hoje!")
@@ -22,7 +22,7 @@ console.log("Voçê está com pouca fome hoje!")
 console.log("Voçê está um pouco cheio")
 }else if(nivelDeFome === 3){
 console.log("Você comeria mais que o pica-pau")
-}else{
+}else if(nivelDeFome === 5){
 console.log("Voçê já morreu de fome!!!")    
 }
 
