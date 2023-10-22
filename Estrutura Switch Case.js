@@ -1,4 +1,4 @@
-let dia = "Quinta"; //
+let dia = "domingo"; //
 switch (dia){
     case "segunda":
         console.log("Dia de começar a semana com energia!");
