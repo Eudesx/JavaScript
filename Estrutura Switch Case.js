@@ -18,4 +18,7 @@ switch (dia){
                             case "sabado":
                             console.log("Final de semana! Descanse e divirta-se!")
                             break;
+                                case "domingo":
+                                console.log("Dia de tomar uma!")
+                                break;
 }
