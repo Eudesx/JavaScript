@@ -1,3 +1,4 @@
+/*
 let xp = "10.000"
 let nomeHeroi = "EudesX"
 const inicio = "Seja bem vindo ao classificador de heroi"
@@ -50,4 +51,4 @@ if (xp === 1000) {
     console.log("O Herói de nome" + nomeHeroi + "está no nível de" + xp + "= Imortal");
 } else if (xp >= 10001) {
     console.log("O Herói de nome" + nomeHeroi + "está no nível de" + xp + "= Radiante");
-}
+}*/
