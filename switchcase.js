@@ -31,6 +31,13 @@ switch (fruta){
                 }
                 break
 
+                case "alface":
+                case "xuxu":
+                    console.log("Alface" + fruta +  "para salada!")
+                    if(fruta === "Alface"){
+                        console.log("")
+                    }
+
                 default:
                     console.log("Isso e de fazer suco? ou torta?")
 }
