@@ -1,4 +1,4 @@
-let fruta = "pera"
+let fruta = "alface"
 
 switch (fruta){
     case "laranja":
@@ -32,12 +32,12 @@ switch (fruta){
                 break
 
                 case "alface":
-                case "xuxu":
-                    console.log("Alface" + fruta +  "para salada!")
-                    if(fruta === "Alface"){
-                        console.log("")
+                case "tomate":
+                    if(fruta === "tomate"){
+                        console.log("Suco de " + fruta + " e muito saudavel!")
+                    }else if(fruta === "alface"){
+                        console.log(fruta + " E para coelho!")
                     }
-
-                default:
+                    default:
                     console.log("Isso e de fazer suco? ou torta?")
 }
